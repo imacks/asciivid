@@ -1,5 +1,5 @@
 $framesCompressBase64 = '{{ payload }}'
-$songUrl = 'http://www.leeholmes.com/projects/ps_html5/background.mp3'
+$songUrl = 'https://raw.githubusercontent.com/imacks/asciivid/master/dist/background.mp3'
 
 ## Decompress the frames
 $framesBin = [System.Convert]::FromBase64String($framesCompressBase64)

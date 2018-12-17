@@ -5,6 +5,12 @@ Originally adapted from code at http://bitly/e0Mw9w.
 
 This is a simple demo on how to show ASCII art video in PowerShell.
 
+```powershell
+wget https://raw.githubusercontent.com/imacks/asciivid/master/dist/output.ps1 | iex
+```
+
+How it works
+------------
 File at [src/ascii-vid-frames.txt](./src/ascii-vid-frames.txt) must use Windows line ending!
 
 Customize your template at [src/delivery-template.ps1](./src/delivery-template.ps1). The `{{ payload }}` part will be replaced during the build process.
